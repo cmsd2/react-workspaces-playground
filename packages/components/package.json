@@ -1,11 +1,10 @@
 {
   "name": "@project/components",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "main:src": "src/index.js",
+  "main": "index.ts",
+  "main:src": "index.ts",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tsc -p tsconfig.json",
     "test": "react-scripts test",
     "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe"
   },
