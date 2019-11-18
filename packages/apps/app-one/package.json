@@ -35,23 +35,6 @@
       "last 1 safari version"
     ]
   },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/setupTests.{js,jsx}",
-      "!src/index.{js,jsx}",
-      "!src/serviceWorker.{js,jsx}",
-      "!src/**/*.(spec|test|stories).{js,jsx}"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 98,
-        "branches": 98,
-        "functions": 98,
-        "lines": 98
-      }
-    }
-  },
   "devDependencies": {
     "@storybook/addon-actions": "^5.2.6",
     "@storybook/addon-links": "^5.2.6",

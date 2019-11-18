@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true lerna run test -- --coverage",
+    "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true jest",
     "deploy": "FORCE_COLOR=true lerna run deploy"
   },
   "workspaces": {
@@ -41,14 +41,5 @@
     "babel-loader": "^8.0.6",
     "webpack": "^4.41.2",
     "typescript": "^3.7.0-beta"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/setupTests.{js,jsx}",
-      "!src/index.{js,jsx}",
-      "!src/serviceWorker.{js,jsx}",
-      "!src/**/*.(spec|test|stories).{js,jsx}"
-    ]
   }
 }
