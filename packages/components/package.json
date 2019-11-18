@@ -43,5 +43,6 @@
       }
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }

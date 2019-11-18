@@ -19,7 +19,9 @@
     "test": "react-scripts test",
     "lint": "eslint ./src/**/*.js --max-warnings=0 --format=codeframe",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "browserslist": {
     "production": [
@@ -49,5 +51,11 @@
         "lines": 98
       }
     }
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-links": "^5.2.6",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/react": "^5.2.6"
   }
 }
