@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "test": "FORCE_COLOR=true lerna run lint && CI=true FORCE_COLOR=true jest",
-    "deploy": "FORCE_COLOR=true lerna run deploy"
+    "deploy": "FORCE_COLOR=true lerna run deploy",
+    "storybook": "cd packages/storybook && yarn run storybook"
   },
   "workspaces": {
     "packages": [
