@@ -1,6 +1,11 @@
 import React from 'react';
 import './CompTwo.css';
 
+enum Test {
+	a,
+	b
+}
+
 const CompTwo = () => (
 	<div className="Comp">
 		<h3>
